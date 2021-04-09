@@ -1,0 +1,14 @@
+npm = node package manager
+
+git rm -r --cached node_modules : useful command to untrack node_modules
+
+node_modules can be installed with an 'npm install' command. always put node_modules in .gitignore so they aren't pushed to github
+
+npm init - produces a package.json file which stores meta-data about the project
+
+npm install inquirer - installs inquirer 
+  also gives us a node modules folder and a package-lock.json folder 
+
+node_modules folder : a folder housing all of the modules we'll use for the project
+
+package-lock.json - all of the dependencies of the project in javascript object notation
